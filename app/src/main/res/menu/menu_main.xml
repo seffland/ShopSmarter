@@ -2,9 +2,14 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item android:id="@+id/action_add_location"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="Add Task" />
     <item android:id="@+id/action_add_task"
         android:showAsAction="always"
         android:icon="@android:drawable/ic_menu_add"
         android:title="Add Task" />
+
 
 </menu>
